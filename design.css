@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+body {
+    background-color: rgb(131, 130, 130);
+    color: rgb(95, 94, 1);
+margin-left: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    color: hotpink;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration:underline;
+}
+a:active {
+    color: indigo;
+}
+
+.Glavfoto {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 10px 10px 17px rgb(0, 0, 0);
+    
+}
+
+.info p {
+    color: darkgray;
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    /* text-transform: uppercase;*/
+     /* letter-spacing: 3px; */
+     word-spacing: 3px;
+}
+.social {
+   /* background: rgb(241, 234, 128);
+    border-radius: 28px;
+    padding: 5px 20px;
+    border: 3px solid black;
+    border-bottom-style: dotted;
+    border-top-width: 7px;
+    border-right-color: grey ;
+    margin: 10px; */
+
+}
+.cont {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.bg-y {
+    background: rgb(255, 245, 151);
+}
+
+.bg-g {
+    background: rgb(211, 211, 211);
+}
+
+
+.bg-r {
+    background: rgb(248, 218, 223);
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 30px;
+}
+
+.info { 
+    margin-bottom: 20px;
+}
+
+* {
+    /*padding: 0;
+    margin: 0;*/
+}
+ .list {
+     padding: 0 20px;
+ }
+ .list li {
+     color: rgb(109, 109, 109);
+     margin-bottom: 5px;
+     border-bottom: 1px solid blueviolet;
+ }
+
+ .table {
+     width: 100%;
+ }
+ .table td {
+     padding-bottom: 5px;
+ }
+ .table td:nth-child(2), .table td:nth-child(3) {
+     color: rgb(179, 0, 149);
+ }
+ .video {
+    list-style: circle;
+    padding: 20;
+ }
+ .video li {
+     margin-bottom: 5px;
+     border-bottom: 2px solid rgb(255, 255, 255);
+     padding-left: 5px;
+ }
+.sv h2 {
+    text-align: center;
+}
+.qwe label {
+    display: block;
+    font-size: 14px;
+    color: rgb(165, 0, 124);
+    margin-left: 15px;
+}
+.qwe input, .qwe textarea {
+    margin-left: 20px;
+    width: 75%;
+    box-shadow: crimson;
+    box-sizing: border-box;
+    border: 2px black;
+    border-bottom: 1px solid rebeccapurple;
+    color: black;
+    padding: 15px 2px 15px 2px;
+    outline-color: blueviolet;
+    font-family: inherit;
+    background: transparent;
+}
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1000px) {
+    .info {
+        display: block;
+    }
+}
+
+
+
+.it {
+    margin-left: 50px;
+    
+}
+.it h2 {
+ margin-bottom: 20px;
+}
+.tap {
+    background: rgb(46, 0, 46);
+    padding: 15px 20px;
+    color: white;
+    border-radius: 10px;
+border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.tap:hover {
+    opacity: 0.9;
+}
+.tox {
+    background: rgb(46, 0, 46);
+    padding: 15px 60px;
+    color: white;
+    border-radius: 10px;
+border: none;
+    font-family: inherit;
+    cursor: pointer;
+    margin-left: 20px;
+}
+    .sum {
+        background: rgb(94, 94, 94);
+        padding: 1px 550px;
+        color: rgb(255, 230, 0);
+        border-radius: 10px;
+    border: none;  
+        font-family: 'Gemunu Libre', sans-serif;
+        cursor: pointer;
+        text-align: center;
+    }
+    button {
+        background: rgb(46, 0, 46);
+        padding: 15px 60px;
+        color: white;
+        border-radius: 10px;
+    border: none;
+        font-family: inherit;
+        cursor: pointer;
+        margin-left: 20px;
+    }
